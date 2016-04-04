@@ -158,24 +158,34 @@ if __name__=='__main__':
     parser.add_argument('M', type=int, help='minimum number of people who we want to have installed the app')
     parser.add_argument('friends_file', help='file defining the social network')
     parser.add_argument('-o', '--output', help='name the output file (default: solution.txt)')
+    parser.add_argument('-m', '--model', help='save the model (after running solve) to a file')
     args = parser.parse_args()
     # extract user input
     m, M, friends_file = args.m, args.M, args.friends_file
     solution_file = args.output if args.output else 'solution.txt'
-
+    model_file = args.model if args.model else None
     edges,n = load(friends_file)
     
     # build the model
     model = build_model(edges,n,M,m)
+    
     # solve the model
     model.solve()
+    
+    # save model to storage
+    if model_file:
+        model.write(model_file)
+        
     # print the solution
     sol = model.solution
     print("Solution status = ", sol.get_status(), ":", end=' ')
     print(sol.status[sol.get_status()])
     if sol.is_primal_feasible():
         print("Solution value  = ", sol.get_objective_value())
+        sol.write(solution_file)
+        print('Solution has been written to '+solution_file)
         
+        # read solution file
         import xml.etree.ElementTree as ET
         tree = ET.parse(solution_file)
         root = tree.getroot()
@@ -183,7 +193,5 @@ if __name__=='__main__':
             if 'x' in variable.get('name') and ',0]' in variable.get('name'):
                 print(variable.get('name') +' : '+variable.get('value'))
                 
-        sol.write(solution_file)
-        print('Solution has been written to '+solution_file)
     else:
         print("No solution available.")
