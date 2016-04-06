@@ -23,21 +23,21 @@ def try_solution(edges,solution,m):
     m           : minimum number of people needed to infected new person
     returns number of people infected on the last step
     '''
-    import numpy as np
+
     n = len(edges)
-    infected = np.array(solution)
+    infected = [x for x in solution]
     for t in range(n):
-        to_infect = np.zeros(n)
+        to_infect = [0] * n
         for i in range(len(infected)):
             if infected[i]:
                 for neighbour in edges[i]:
                     to_infect[neighbour] += 1
         for i in range(len(to_infect)):
             to_infect[i] = 1 if to_infect[i]>=m else 0
-        infected += to_infect
+            infected[i] += to_infect[i]
         for i in range(len(infected)):
             infected[i] = 1 if infected[i] >= 1 else 0
-    return infected.dot(np.ones(n))
+    return sum(infected)
     
 def find_greedy_solution(edges, f, m, M):
     count = 0
@@ -206,9 +206,8 @@ def build_model(edges,n,M,m, seed_with_greedy=False):
     print('Seeding problem with greedy solution')
     if seed_with_greedy:
         seeds = find_greedy_solution(edges, f, m, M)
-
-        for seed in seeds:
-            x[seed[0]][0].start = 1.0
+        for i in range(len(seeds)):
+            x[i][0].start = 1.0 if seeds[i] else 0.0
     
     model.update()
     print('Finished building model')
@@ -230,7 +229,7 @@ def run(friends_file, m, M, solution_file, model_file, log_file, greedy):
     # find solution
     def callback(model, where):
         print(str(model) +' called '+ str(where))
-    solution =  model.optimize(callback)
+    solution =  model.optimize()
     print('Status: '+str(GRB.OPTIMAL))
     # print solution
     if model.Status == GRB.OPTIMAL:
@@ -258,7 +257,7 @@ if __name__=='__main__':
     parser.add_argument('m', type=int, help='minimum number of friends needed to coerce an install')
     parser.add_argument('M', type=int, help='minimum number of people who we want to have installed the app')
     parser.add_argument('friends_file', help='file defining the social network')
-    parser.add_argument('-o', '--output', help='name the output file (default: solution.txt)')
+    parser.add_argument('-o', '--output', help='name the output file (default: solution.sol)')
     parser.add_argument('-m', '--model', help='save the model (after running solve) to a file')
     parser.add_argument('-l', '--log', help='change log file name')
     parser.add_argument('--memory', action='store_true', help='activates NodefileStart param at 0.5Gb to reduce memory usage')
@@ -267,7 +266,7 @@ if __name__=='__main__':
     args = parser.parse_args()
     # extract user input
     m, M, friends_file = args.m, args.M, args.friends_file
-    solution_file = args.output if args.output else 'solution.txt'
+    solution_file = args.output +'.sol' if args.output else 'solution.sol'
     model_file = args.model if args.model else None
     log_file = args.log
     greedy = args.greedy == True

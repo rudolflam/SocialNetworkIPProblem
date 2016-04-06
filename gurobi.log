@@ -1,3 +1,612 @@
 
 Gurobi 6.5.1 (linux64) logging started Tue Apr  5 16:58:48 2016
 
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 07:27:20
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 07:29:17
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 07:29:19
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:45:49
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:45:49
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:49:09
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:49:10
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:49:51
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:49:51
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:58:31
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 08:58:32
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:17:47
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:17:47
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:18:05
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:18:05
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:20:50
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:20:50
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:25:07
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:25:08
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:26:13
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:26:14
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:27:10
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:27:10
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:28:57
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:28:57
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:29:27
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:29:27
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:31:14
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:31:14
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:32:09
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:32:09
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:33:17
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:33:18
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:35:06
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:35:07
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:37:41
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:37:42
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:41:28
+
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:41:28
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:46:48
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:46:53
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:36
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:37
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:42
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:43
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:47
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:48
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:55
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:56
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:47:59
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:01
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:08
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:08
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:13
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:14
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:25
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:26
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:29
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:32
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:39
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:48:40
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:49:40
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:49:41
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:49:50
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:49:52
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:01
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:02
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:06
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:08
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:16
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:18
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:32
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:33
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:38
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:41
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:50
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:51
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:58
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:50:59
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:51:06
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
+
+Gurobi 6.5.1 (win64) logging started 04/06/16 09:51:07
+
+Parameter NodefileStart unchanged
+   Value: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter MIPFocus to 3
+   Prev: 0  Min: 0  Max: 3  Default: 0
