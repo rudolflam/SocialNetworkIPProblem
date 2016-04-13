@@ -22,11 +22,16 @@ def parse(filename):
                 steps += 1
                 lastline = line
         data = lastline.split()
+        if not data:
+            return None
         try:
             explored_nodes = int(data[0])
         except:
-            data = data[1:]
-            explored_nodes = int(data[0])
+            try:
+                data = data[1:]
+                explored_nodes = int(data[0])
+            except:
+                print(data)
         time = int(data[-1][:-1])
         return {'steps': steps, 'explored nodes': explored_nodes, 'time' : time}
         

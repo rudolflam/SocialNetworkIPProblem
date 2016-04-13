@@ -23,6 +23,7 @@ def generate( filename, n):
         i,j = e
     # construct the file
     with open(filename, 'w') as file:
+        file.write(str(n)+'\n')
         for e in E:
             i,j = e
             file.write(str(i)+' '+str(j)+'\n')
