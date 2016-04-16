@@ -1,0 +1,85 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 00:00:31 2016
+
+Changed value of parameter LogFile to random_graph_10_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1029 rows, 546 columns and 4181 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 38
+Presolve removed 131 rows and 83 columns
+Presolve time: 0.04s
+Presolved: 898 rows, 463 columns, 3709 nonzeros
+
+MIP start did not produce a new incumbent solution
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 463 integer (462 binary)
+Presolve removed 112 rows and 32 columns
+Presolved: 786 rows, 479 columns, 3277 nonzeros
+
+
+Root relaxation: objective 1.700000e+01, 390 iterations, 0.04 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   17.00000    0   23   38.00000   17.00000  55.3%     -    0s
+H    0     0                      32.0000000   17.00000  46.9%     -    0s
+     0     0   17.00000    0   14   32.00000   17.00000  46.9%     -    0s
+H    0     0                      27.0000000   17.00000  37.0%     -    0s
+     0     0   17.00000    0   16   27.00000   17.00000  37.0%     -    0s
+     0     0   17.00000    0   16   27.00000   17.00000  37.0%     -    1s
+     0     2   17.00000    0   16   27.00000   17.00000  37.0%     -    1s
+H  203   168                      22.0000000   17.00000  22.7%  29.4    2s
+   618   211 infeasible   21        22.00000   17.00000  22.7%  30.5    5s
+   779   198 infeasible   17        22.00000   17.00000  22.7%  32.8   10s
+  1101   214 infeasible   10        22.00000   17.00000  22.7%  35.1   15s
+  1417   219   17.00000   18   94   22.00000   17.00000  22.7%  38.1   20s
+  1505   222 infeasible   14        22.00000   17.00000  22.7%  38.8   25s
+  1770   197   17.00000   11   45   22.00000   17.00000  22.7%  42.7   33s
+  1838   202 infeasible   11        22.00000   17.00000  22.7%  44.0   35s
+  2093   217 infeasible   12        22.00000   17.00000  22.7%  46.6   40s
+  2362   199 infeasible   19        22.00000   17.00000  22.7%  48.4   48s
+  2458   190 infeasible   25        22.00000   17.00000  22.7%  49.2   51s
+  2704   200   17.00000   11   14   22.00000   17.00000  22.7%  51.3   55s
+  2826   216 infeasible   15        22.00000   17.00000  22.7%  51.2   60s
+  2976   216   17.00000   14  106   22.00000   17.00000  22.7%  52.2   66s
+  3233   209   17.00000   14   26   22.00000   17.00000  22.7%  53.0   70s
+  3520   198 infeasible   11        22.00000   17.00000  22.7%  51.4   76s
+  3953   196   17.00000   11   45   22.00000   17.00000  22.7%  50.5   80s
+  4131   221   17.00000    9  109   22.00000   17.00000  22.7%  50.3   86s
+  4295   197   17.00000   13   41   22.00000   17.00000  22.7%  50.9   91s
+  4858   196 infeasible   11        22.00000   17.00000  22.7%  50.3   97s
+  5019   186   17.00000   11   33   22.00000   17.00000  22.7%  51.2  100s
+  5377   214 infeasible   11        22.00000   17.00000  22.7%  52.3  108s
+  5473   194   17.00000   17   23   22.00000   17.00000  22.7%  52.1  112s
+  5723   177 infeasible   21        22.00000   17.00000  22.7%  52.4  115s
+  6300   131   17.00000   13   86   22.00000   17.00000  22.7%  52.2  123s
+  6732   148   17.00000   11   56   22.00000   17.00000  22.7%  51.4  127s
+  6944   110   17.00000    9  121   22.00000   17.00000  22.7%  51.4  131s
+  7391   120   17.00000   11  107   22.00000   17.00000  22.7%  50.3  136s
+  8154    39   17.00000   12   35   22.00000   17.00000  22.7%  48.7  144s
+  8478     9 infeasible   14        22.00000   17.00000  22.7%  47.7  148s
+  8877     0 infeasible   20        22.00000   17.00000  22.7%  46.8  150s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 678
+  Implied bound: 38
+  Clique: 161
+  MIR: 176
+  Flow cover: 1175
+  Zero half: 478
+
+Explored 9285 nodes (427465 simplex iterations) in 151.63 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.200000000000e+01, best bound 2.200000000000e+01, gap 0.0%

@@ -1,0 +1,59 @@
+
+Gurobi 6.5.1 (linux64) logging started Thu Apr 14 00:45:54 2016
+
+Changed value of parameter LogFile to random_graph_9_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1451 rows, 762 columns and 6393 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [3e+00, 2e+01]
+Presolve removed 475 rows and 268 columns
+Presolve time: 0.08s
+Presolved: 976 rows, 494 columns, 4211 nonzeros
+
+Loaded MIP start with objective 74
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 494 integer (494 binary)
+Presolve removed 133 rows and 38 columns
+Presolved: 843 rows, 475 columns, 3679 nonzeros
+
+
+Root relaxation: objective 2.400000e+01, 346 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   24.00000    0   32   74.00000   24.00000  67.6%     -    0s
+H    0     0                      39.0000000   24.00000  38.5%     -    0s
+     0     0   24.00000    0   40   39.00000   24.00000  38.5%     -    0s
+     0     0   24.00000    0   38   39.00000   24.00000  38.5%     -    1s
+     0     0   24.00000    0   36   39.00000   24.00000  38.5%     -    1s
+     0     0   24.00000    0   24   39.00000   24.00000  38.5%     -    2s
+H    0     0                      34.0000000   24.00000  29.4%     -    2s
+     0     0   24.00000    0   45   34.00000   24.00000  29.4%     -    2s
+     0     0   24.00000    0   40   34.00000   24.00000  29.4%     -    3s
+     0     0   24.00000    0   40   34.00000   24.00000  29.4%     -    4s
+     0     2   24.00000    0   32   34.00000   24.00000  29.4%     -    5s
+   786   210   24.00957    6  173   34.00000   24.00000  29.4%  19.9   12s
+  1388   104     cutoff    7        34.00000   26.97619  20.7%  21.6   15s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 368
+  Implied bound: 69
+  Clique: 232
+  MIR: 138
+  Flow cover: 674
+  Zero half: 148
+
+Explored 1893 nodes (37811 simplex iterations) in 16.10 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.400000000000e+01, best bound 3.400000000000e+01, gap 0.0%

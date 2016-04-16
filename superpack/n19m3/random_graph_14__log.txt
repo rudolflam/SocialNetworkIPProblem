@@ -1,0 +1,52 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 12:50:13 2016
+
+Changed value of parameter LogFile to random_graph_14__log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1447 rows, 762 columns and 6689 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 26
+Presolve removed 1 rows and 20 columns
+Presolve time: 0.05s
+Presolved: 1446 rows, 742 columns, 6670 nonzeros
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 742 integer (741 binary)
+Presolve removed 171 rows and 19 columns
+Presolved: 1275 rows, 856 columns, 5891 nonzeros
+
+
+Root relaxation: objective 1.500000e+01, 577 iterations, 0.08 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   15.00000    0   19   26.00000   15.00000  42.3%     -    0s
+H    0     0                      25.0000000   15.00000  40.0%     -    0s
+     0     0   15.00000    0   30   25.00000   15.00000  40.0%     -    0s
+     0     0   15.00000    0   18   25.00000   15.00000  40.0%     -    1s
+H    0     0                      20.0000000   15.00000  25.0%     -    1s
+     0     0   15.00000    0   34   20.00000   15.00000  25.0%     -    3s
+     0     0   15.00000    0   34   20.00000   15.00000  25.0%     -    4s
+     0     2   15.00000    0   27   20.00000   15.00000  25.0%     -    4s
+     8    12   15.00000    5   35   20.00000   15.00000  25.0%  20.2    5s
+*  104     7              14      15.0000000   15.00000  0.00%  16.4    5s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 45
+  MIR: 3
+  Flow cover: 74
+  Zero half: 11
+
+Explored 174 nodes (5457 simplex iterations) in 5.49 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.500000000000e+01, best bound 1.500000000000e+01, gap 0.0%

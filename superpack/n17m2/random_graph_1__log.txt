@@ -1,0 +1,52 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 00:19:35 2016
+
+Changed value of parameter LogFile to random_graph_1__log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1159 rows, 614 columns and 4863 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [1e+00, 2e+01]
+Found heuristic solution: objective 20
+Presolve removed 69 rows and 52 columns
+Presolve time: 0.04s
+Presolved: 1090 rows, 562 columns, 4727 nonzeros
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 562 integer (561 binary)
+Presolve removed 51 rows and 17 columns
+Presolved: 1039 rows, 562 columns, 4591 nonzeros
+
+
+Root relaxation: objective 1.000000e+01, 351 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   10.00000    0  100   20.00000   10.00000  50.0%     -    0s
+H    0     0                      16.0000000   10.00000  37.5%     -    0s
+     0     0   10.00000    0  152   16.00000   10.00000  37.5%     -    0s
+     0     0   10.00000    0  149   16.00000   10.00000  37.5%     -    0s
+H    0     0                      11.0000000   10.00000  9.09%     -    1s
+     0     0   10.00000    0   16   11.00000   10.00000  9.09%     -    2s
+     0     0   10.00000    0   24   11.00000   10.00000  9.09%     -    4s
+     0     0   10.00000    0   31   11.00000   10.00000  9.09%     -    5s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 19
+  Implied bound: 3
+  Clique: 90
+  MIR: 1
+  Flow cover: 24
+  Zero half: 3
+
+Explored 0 nodes (3599 simplex iterations) in 5.45 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.100000000000e+01, best bound 1.100000000000e+01, gap 0.0%

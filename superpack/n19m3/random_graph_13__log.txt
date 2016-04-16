@@ -1,0 +1,50 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 12:50:07 2016
+
+Changed value of parameter LogFile to random_graph_13__log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1448 rows, 762 columns and 6786 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 33
+Presolve removed 78 rows and 59 columns
+Presolve time: 0.06s
+Presolved: 1370 rows, 703 columns, 6459 nonzeros
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 703 integer (702 binary)
+Presolve removed 133 rows and 38 columns
+Presolved: 1237 rows, 722 columns, 5946 nonzeros
+
+
+Root relaxation: objective 1.600000e+01, 592 iterations, 0.06 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   16.00000    0   24   33.00000   16.00000  51.5%     -    0s
+H    0     0                      31.0000000   16.00000  48.4%     -    0s
+     0     0   16.00000    0   41   31.00000   16.00000  48.4%     -    0s
+     0     0   16.00000    0   51   31.00000   16.00000  48.4%     -    1s
+H    0     0                      26.0000000   16.00000  38.5%     -    1s
+H    0     0                      21.0000000   16.00000  23.8%     -    1s
+     0     0   16.00000    0   45   21.00000   16.00000  23.8%     -    2s
+     0     2   16.00000    0   29   21.00000   16.00000  23.8%     -    2s
+H   22    13                      16.0000000   16.00000  0.00%  21.0    2s
+
+Cutting planes:
+  Cover: 17
+  MIR: 3
+  Flow cover: 26
+  Zero half: 2
+
+Explored 38 nodes (4155 simplex iterations) in 2.45 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0%

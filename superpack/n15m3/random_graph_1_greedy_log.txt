@@ -1,0 +1,57 @@
+
+Gurobi 6.5.1 (linux64) logging started Tue Apr 12 23:30:39 2016
+
+Changed value of parameter LogFile to random_graph_1_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 905 rows, 482 columns and 3635 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 3e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 27
+Presolve removed 153 rows and 93 columns
+Presolve time: 0.06s
+Presolved: 752 rows, 389 columns, 3012 nonzeros
+
+Loaded MIP start with objective 22
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 389 integer (388 binary)
+Presolve removed 120 rows and 45 columns
+Presolved: 632 rows, 359 columns, 2607 nonzeros
+
+
+Root relaxation: objective 1.400000e+01, 347 iterations, 0.04 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.00000    0   37   22.00000   14.00000  36.4%     -    0s
+H    0     0                      18.0000000   14.00000  22.2%     -    0s
+     0     0   14.00000    0   21   18.00000   14.00000  22.2%     -    0s
+     0     0   14.00000    0   17   18.00000   14.00000  22.2%     -    0s
+     0     0   14.00000    0   12   18.00000   14.00000  22.2%     -    1s
+     0     0   14.00000    0   19   18.00000   14.00000  22.2%     -    1s
+     0     0   14.00000    0   24   18.00000   14.00000  22.2%     -    2s
+     0     0   14.00000    0   24   18.00000   14.00000  22.2%     -    3s
+     0     2   14.00000    0   15   18.00000   14.00000  22.2%     -    3s
+  1192    26   14.00000   16   21   18.00000   14.00000  22.2%   9.2    5s
+
+Cutting planes:
+  Gomory: 11
+  Cover: 254
+  Implied bound: 11
+  Clique: 8
+  MIR: 28
+  Flow cover: 411
+  Zero half: 116
+
+Explored 1787 nodes (20805 simplex iterations) in 7.99 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0%

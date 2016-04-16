@@ -1,0 +1,52 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 00:16:49 2016
+
+Changed value of parameter LogFile to random_graph_11__log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1031 rows, 546 columns and 4345 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [3e+00, 2e+01]
+Presolve removed 400 rows and 226 columns
+Presolve time: 0.05s
+Presolved: 631 rows, 320 columns, 2572 nonzeros
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 320 integer (320 binary)
+Found heuristic solution: objective 44.0000000
+Presolve removed 112 rows and 32 columns
+Presolved: 519 rows, 304 columns, 2140 nonzeros
+
+
+Root relaxation: objective 2.400000e+01, 208 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   24.00000    0   24   44.00000   24.00000  45.5%     -    0s
+H    0     0                      39.0000000   24.00000  38.5%     -    0s
+     0     0   24.00000    0   21   39.00000   24.00000  38.5%     -    0s
+     0     0   24.00000    0   32   39.00000   24.00000  38.5%     -    0s
+H    0     0                      34.0000000   24.00000  29.4%     -    0s
+     0     0   24.00000    0   32   34.00000   24.00000  29.4%     -    0s
+     0     2   24.00000    0   32   34.00000   24.00000  29.4%     -    1s
+   608   190 infeasible   10        34.00000   24.00000  29.4%  28.1    5s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 354
+  Implied bound: 127
+  Clique: 344
+  MIR: 150
+  Flow cover: 540
+  Zero half: 109
+
+Explored 1190 nodes (30371 simplex iterations) in 7.79 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.400000000000e+01, best bound 3.400000000000e+01, gap 0.0%

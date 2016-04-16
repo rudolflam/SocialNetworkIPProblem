@@ -1,0 +1,57 @@
+
+Gurobi 6.5.1 (linux64) logging started Thu Apr 14 19:38:14 2016
+
+Changed value of parameter LogFile to random_graph_10_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1606 rows, 842 columns and 6767 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 34
+Presolve removed 324 rows and 184 columns
+Presolve time: 0.09s
+Presolved: 1282 rows, 658 columns, 5715 nonzeros
+
+Loaded MIP start with objective 19
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 658 integer (657 binary)
+Presolve removed 220 rows and 40 columns
+Presolved: 1062 rows, 758 columns, 4775 nonzeros
+
+
+Root relaxation: objective 1.800000e+01, 433 iterations, 0.06 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   18.00000    0   35   19.00000   18.00000  5.26%     -    0s
+     0     0   18.00000    0   26   19.00000   18.00000  5.26%     -    0s
+     0     0   18.00000    0   25   19.00000   18.00000  5.26%     -    1s
+     0     0   18.00000    0   32   19.00000   18.00000  5.26%     -    3s
+     0     0   18.00000    0   24   19.00000   18.00000  5.26%     -    4s
+     0     0   18.00000    0   27   19.00000   18.00000  5.26%     -    5s
+     0     0   18.00000    0   23   19.00000   18.00000  5.26%     -    5s
+     0     0   18.00000    0   24   19.00000   18.00000  5.26%     -    7s
+     0     0   18.00000    0   24   19.00000   18.00000  5.26%     -    7s
+     0     0   18.00000    0   11   19.00000   18.00000  5.26%     -   12s
+     0     0   18.00000    0   12   19.00000   18.00000  5.26%     -   16s
+     0     0   18.00000    0   21   19.00000   18.00000  5.26%     -   18s
+     0     0   18.00000    0   21   19.00000   18.00000  5.26%     -   20s
+H    0     0                      18.0000000   18.00000  0.00%     -   20s
+
+Cutting planes:
+  Cover: 21
+  Flow cover: 48
+  Zero half: 11
+
+Explored 0 nodes (4476 simplex iterations) in 20.39 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0%

@@ -1,0 +1,15 @@
+160,6196,37
+2,0,8
+Infeasible,None,None
+55,2099,18
+Infeasible,None,None
+5,743,9
+Infeasible,None,None
+Infeasible,None,None
+5,8,8
+Infeasible,None,None
+Infeasible,None,None
+5,621,8
+Infeasible,None,None
+Infeasible,None,None
+66,3045,21

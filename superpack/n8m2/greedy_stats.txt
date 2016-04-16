@@ -1,0 +1,15 @@
+Infeasible,None,None
+Infeasible,None,None
+0,0,6
+0,0,4
+0,0,2
+Infeasible,None,None
+0,0,6
+0,0,8
+Infeasible,None,None
+0,0,6
+0,0,7
+Infeasible,None,None
+0,0,6
+0,0,7
+Infeasible,None,None

@@ -1,0 +1,54 @@
+
+Gurobi 6.5.1 (linux64) logging started Tue Apr 12 23:25:27 2016
+
+Changed value of parameter LogFile to random_graph_0__log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 789 rows, 422 columns and 3071 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+01]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 3e+00]
+  RHS range       [2e+00, 1e+01]
+Found heuristic solution: objective 26
+Presolve removed 115 rows and 73 columns
+Presolve time: 0.02s
+Presolved: 674 rows, 349 columns, 2601 nonzeros
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 349 integer (348 binary)
+Presolve removed 126 rows and 42 columns
+Presolved: 548 rows, 349 columns, 2139 nonzeros
+
+
+Root relaxation: objective 1.400000e+01, 307 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.00000    0   22   26.00000   14.00000  46.2%     -    0s
+H    0     0                      22.0000000   14.00000  36.4%     -    0s
+     0     0   14.00000    0   24   22.00000   14.00000  36.4%     -    0s
+     0     0   14.00000    0   25   22.00000   14.00000  36.4%     -    0s
+H    0     0                      18.0000000   14.00000  22.2%     -    0s
+     0     0   14.00000    0   25   18.00000   14.00000  22.2%     -    0s
+     0     2   14.00000    0   25   18.00000   14.00000  22.2%     -    0s
+   952    75   14.00000    6  106   18.00000   14.00000  22.2%  24.6    5s
+  1297    46   14.00000   11   54   18.00000   14.00000  22.2%  27.5   10s
+  1598    19   14.00000    9   96   18.00000   14.00000  22.2%  31.9   15s
+
+Cutting planes:
+  Gomory: 11
+  Cover: 550
+  Implied bound: 33
+  Clique: 149
+  MIR: 89
+  Flow cover: 882
+  Zero half: 471
+
+Explored 1655 nodes (56209 simplex iterations) in 16.79 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0%

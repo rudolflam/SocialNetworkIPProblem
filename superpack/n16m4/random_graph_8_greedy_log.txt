@@ -1,0 +1,55 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 00:16:20 2016
+
+Changed value of parameter LogFile to random_graph_8_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1031 rows, 546 columns and 4409 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [3e+00, 2e+01]
+Found heuristic solution: objective 39
+Presolve removed 274 rows and 162 columns
+Presolve time: 0.05s
+Presolved: 757 rows, 384 columns, 3240 nonzeros
+
+MIP start did not produce a new incumbent solution
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 384 integer (384 binary)
+Presolve removed 96 rows and 0 columns
+Presolved: 661 rows, 400 columns, 2728 nonzeros
+
+
+Root relaxation: objective 2.400000e+01, 287 iterations, 0.03 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   24.00000    0   30   39.00000   24.00000  38.5%     -    0s
+H    0     0                      34.0000000   24.00000  29.4%     -    0s
+     0     0   24.00000    0   16   34.00000   24.00000  29.4%     -    0s
+H    0     0                      29.0000000   24.00000  17.2%     -    0s
+     0     0   24.00000    0   32   29.00000   24.00000  17.2%     -    0s
+     0     0   24.00000    0   27   29.00000   24.00000  17.2%     -    0s
+     0     2   24.00000    0   24   29.00000   24.00000  17.2%     -    1s
+     8     7   24.00000    1   15   29.00000   24.00000  17.2%   4.1    5s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 179
+  Implied bound: 57
+  Clique: 338
+  MIR: 14
+  Flow cover: 306
+  Zero half: 62
+
+Explored 532 nodes (28886 simplex iterations) in 9.47 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.900000000000e+01, best bound 2.900000000000e+01, gap 0.0%

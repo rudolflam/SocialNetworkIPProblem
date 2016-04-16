@@ -1,0 +1,55 @@
+
+Gurobi 6.5.1 (linux64) logging started Tue Apr 12 23:22:14 2016
+
+Changed value of parameter LogFile to random_graph_9_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 679 rows, 366 columns and 2471 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+01]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 3e+00]
+  RHS range       [1e+00, 1e+01]
+Found heuristic solution: objective 17
+Presolve removed 1 rows and 14 columns
+Presolve time: 0.02s
+Presolved: 678 rows, 352 columns, 2458 nonzeros
+
+Loaded MIP start with objective 14
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 352 integer (351 binary)
+Presolve removed 91 rows and 26 columns
+Presolved: 587 rows, 365 columns, 2211 nonzeros
+
+
+Root relaxation: objective 8.000000e+00, 300 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.00000    0    7   14.00000    8.00000  42.9%     -    0s
+H    0     0                      12.0000000    8.00000  33.3%     -    0s
+     0     0    8.00000    0   12   12.00000    8.00000  33.3%     -    0s
+     0     0    8.00000    0    9   12.00000    8.00000  33.3%     -    0s
+H    0     0                      10.0000000    8.00000  20.0%     -    1s
+     0     0    8.00000    0   25   10.00000    8.00000  20.0%     -    1s
+     0     0    8.00000    0   25   10.00000    8.00000  20.0%     -    1s
+     0     2    8.00000    0   25   10.00000    8.00000  20.0%     -    1s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 152
+  Implied bound: 4
+  Clique: 25
+  MIR: 11
+  Flow cover: 192
+  Zero half: 113
+
+Explored 584 nodes (8465 simplex iterations) in 2.62 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+01, best bound 1.000000000000e+01, gap 0.0%

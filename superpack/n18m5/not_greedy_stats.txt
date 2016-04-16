@@ -1,0 +1,15 @@
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+35,1977,12
+Infeasible,None,None
+1,0,6
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None

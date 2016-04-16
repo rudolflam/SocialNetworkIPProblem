@@ -1,0 +1,51 @@
+
+Gurobi 6.5.1 (linux64) logging started Tue Apr 12 23:54:12 2016
+
+Changed value of parameter LogFile to random_graph_14__log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 906 rows, 482 columns and 3652 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 3e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 23
+Presolve removed 197 rows and 122 columns
+Presolve time: 0.03s
+Presolved: 709 rows, 360 columns, 2916 nonzeros
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 360 integer (360 binary)
+Presolve removed 75 rows and 15 columns
+Presolved: 634 rows, 390 columns, 2601 nonzeros
+
+
+Root relaxation: objective 1.500000e+01, 286 iterations, 0.03 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   15.00000    0   21   23.00000   15.00000  34.8%     -    0s
+H    0     0                      19.0000000   15.00000  21.1%     -    0s
+     0     0   15.00000    0    8   19.00000   15.00000  21.1%     -    0s
+     0     0   15.00000    0   10   19.00000   15.00000  21.1%     -    0s
+     0     0   15.00000    0   15   19.00000   15.00000  21.1%     -    0s
+     0     0   15.00000    0   15   19.00000   15.00000  21.1%     -    1s
+     0     2   15.00000    0   15   19.00000   15.00000  21.1%     -    1s
+    10     8   15.00000    1   11   19.00000   15.00000  21.1%  11.1    5s
+*  112     9              22      15.0000000   15.00000  0.00%  24.7    5s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 36
+  MIR: 3
+  Flow cover: 36
+  Zero half: 21
+
+Explored 142 nodes (4564 simplex iterations) in 5.84 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.500000000000e+01, best bound 1.500000000000e+01, gap 0.0%

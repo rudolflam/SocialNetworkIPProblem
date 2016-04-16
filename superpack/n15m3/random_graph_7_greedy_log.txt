@@ -1,0 +1,34 @@
+
+Gurobi 6.5.1 (linux64) logging started Tue Apr 12 23:45:40 2016
+
+Changed value of parameter LogFile to random_graph_7_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 906 rows, 482 columns and 3712 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 3e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 19
+Presolve removed 197 rows and 122 columns
+Presolve time: 0.04s
+Presolved: 709 rows, 360 columns, 2976 nonzeros
+
+Loaded MIP start with objective 15
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 360 integer (360 binary)
+Presolve removed 120 rows and 45 columns
+Presolved: 589 rows, 345 columns, 2556 nonzeros
+
+
+Root relaxation: cutoff, 0 iterations, 0.01 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.12 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.500000000000e+01, best bound 1.500000000000e+01, gap 0.0%

@@ -1,0 +1,19 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 09:47:58 2016
+
+Changed value of parameter LogFile to random_graph_3__log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1308 rows, 686 columns and 5527 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [4e+00, 2e+01]
+Presolve removed 660 rows and 357 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 2 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -

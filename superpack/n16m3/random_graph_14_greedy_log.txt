@@ -1,0 +1,55 @@
+
+Gurobi 6.5.1 (linux64) logging started Wed Apr 13 00:08:14 2016
+
+Changed value of parameter LogFile to random_graph_14_greedy_log.txt
+   Prev: gurobi.log  Default: 
+Optimize a model with 1031 rows, 546 columns and 3833 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 4e+00]
+  RHS range       [2e+00, 2e+01]
+Found heuristic solution: objective 29
+Presolve removed 339 rows and 195 columns
+Presolve time: 0.04s
+Presolved: 692 rows, 351 columns, 2544 nonzeros
+
+MIP start did not produce a new incumbent solution
+
+
+Warning: Thread count (4) is larger than core count (2)
+         Reduce the value of the Threads parameter to improve performance
+
+Variable types: 0 continuous, 351 integer (351 binary)
+Presolve removed 192 rows and 80 columns
+Presolved: 500 rows, 303 columns, 1920 nonzeros
+
+
+Root relaxation: objective 1.900000e+01, 205 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   19.00000    0  104   29.00000   19.00000  34.5%     -    0s
+     0     0   19.00000    0   46   29.00000   19.00000  34.5%     -    0s
+     0     0   19.00000    0   19   29.00000   19.00000  34.5%     -    1s
+     0     0   19.00000    0   31   29.00000   19.00000  34.5%     -    3s
+     0     0   19.00000    0   31   29.00000   19.00000  34.5%     -    3s
+     0     2   19.00000    0   31   29.00000   19.00000  34.5%     -    4s
+   338   145   19.00000   12   24   29.00000   19.00000  34.5%  14.5    5s
+  1662    27     cutoff   23        29.00000   24.00000  17.2%  20.8   10s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 342
+  Implied bound: 54
+  Clique: 153
+  MIR: 54
+  Flow cover: 462
+  Zero half: 215
+
+Explored 1830 nodes (41088 simplex iterations) in 10.28 seconds
+Thread count was 4 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.900000000000e+01, best bound 2.900000000000e+01, gap 0.0%

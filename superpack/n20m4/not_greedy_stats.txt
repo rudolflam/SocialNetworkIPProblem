@@ -1,0 +1,15 @@
+15,1175,13
+11220,200955,731
+Infeasible,None,None
+Infeasible,None,None
+Infeasible,None,None
+340,3225,59
+10,1257,10
+Infeasible,None,None
+2000,17124,110
+40,2454,19
+Infeasible,None,None
+30,3944,19
+90,2027,28
+671,6378,75
+Infeasible,None,None
